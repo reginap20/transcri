@@ -24,10 +24,10 @@ model-index:
     metrics:
        - name: Test WER
          type: wer
-         value: 39.59
+         value: 19.18
        - name: Test CER
          type: cer
-         value: 18.18
+         value: 8.25
 ---
 
 # Wav2Vec2-Large-XLSR-53-English
