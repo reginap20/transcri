@@ -166,7 +166,7 @@ print(f"CER: {cer.compute(predictions=predictions, references=references, chunk_
 
 **Test Result**:
 
-In the table below I report the Word Error Rate (WER) and the Character Error Rate (CER) of the model. I ran the evaluation script described above on other models as well (on 2021-05-20). Note that the table below may show different results from those already reported, this may have been caused due to some specificity of the other evaluation scripts used... I've also tested the model using the LibriSpeech and TIMIT datasets, which are better-behaved datasets than the Common Voice, containing only examples in US English extracted from audiobooks.
+In the table below I report the Word Error Rate (WER) and the Character Error Rate (CER) of the model. I ran the evaluation script described above on other models as well (on 2021-05-20). Note that the table below may show different results from those already reported, this may have been caused due to some specificity of the other evaluation scripts used. Initially, I've tested the model only using the Common Voice dataset. Later I've also tested the model using the LibriSpeech and TIMIT datasets, which are better-behaved datasets than the Common Voice, containing only examples in US English extracted from audiobooks.
 
 ---
 
