@@ -35,6 +35,8 @@ model-index:
 Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on English using the [Common Voice](https://huggingface.co/datasets/common_voice).
 When using this model, make sure that your speech input is sampled at 16kHz.
 
+This model has been fine-tuned thanks to the GPU credits generously given by the [OVHcloud](https://www.ovhcloud.com/en/public-cloud/ai-training/) :)
+
 The script used for training can be found here: https://github.com/jonatasgrosman/wav2vec2-sprint
 
 ## Usage
