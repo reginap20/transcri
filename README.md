@@ -43,12 +43,12 @@ The script used for training can be found here: https://github.com/jonatasgrosma
 
 The model can be used directly (without a language model) as follows...
 
-Using the [asrecognition](https://github.com/jonatasgrosman/asrecognition) library:
+Using the [ASRecognition](https://github.com/jonatasgrosman/asrecognition) library:
 
 ```python
 from asrecognition import ASREngine
 
-asr = ASREngine("en")
+asr = ASREngine("en", model_path="jonatasgrosman/wav2vec2-large-xlsr-53-english")
 
 audio_paths = ["/path/to/file.mp3", "/path/to/another_file.wav"]
 transcriptions = asr.transcribe(audio_paths)
