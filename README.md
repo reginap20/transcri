@@ -41,7 +41,20 @@ The script used for training can be found here: https://github.com/jonatasgrosma
 
 ## Usage
 
-The model can be used directly (without a language model) as follows:
+The model can be used directly (without a language model) as follows...
+
+Using the [asrecognition](https://github.com/jonatasgrosman/asrecognition) library:
+
+```python
+from asrecognition import ASREngine
+
+asr = ASREngine("en")
+
+audio_paths = ["/path/to/file.mp3", "/path/to/another_file.wav"]
+transcriptions = asr.transcribe(audio_paths)
+```
+
+Writing your own inference script:
 
 ```python
 import torch
