@@ -44,7 +44,6 @@
   "feat_extract_norm": "layer",
   "feat_proj_dropout": 0.05,
   "final_dropout": 0.0,
-  "gradient_checkpointing": true,
   "hidden_act": "gelu",
   "hidden_dropout": 0.05,
   "hidden_size": 1024,
