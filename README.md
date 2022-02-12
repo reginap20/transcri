@@ -46,16 +46,16 @@ model-index:
       type: speech-recognition-community-v2/dev_data
       args: en
     metrics:
-       - name: Test WER
+       - name: Dev WER
          type: wer
          value: 27.72
-       - name: Test CER
+       - name: Dev CER
          type: cer
          value: 11.65
-       - name: Test WER (+LM)
+       - name: Dev WER (+LM)
          type: wer
          value: 20.85
-       - name: Test CER (+LM)
+       - name: Dev CER (+LM)
          type: cer
          value: 11.01
 ---
