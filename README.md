@@ -150,3 +150,17 @@ python eval.py --model_id jonatasgrosman/wav2vec2-large-xlsr-53-english --datase
 ```bash
 python eval.py --model_id jonatasgrosman/wav2vec2-large-xlsr-53-english --dataset speech-recognition-community-v2/dev_data --config en --split validation --chunk_length_s 5.0 --stride_length_s 1.0
 ```
+
+## Citation
+If you want to cite this model you can use this:
+
+```bibtex
+@misc{grosman2021wav2vec2-large-xlsr-53-english,
+  title={XLSR Wav2Vec2 English by Jonatas Grosman},
+  author={Grosman, Jonatas},
+  publisher={Hugging Face},
+  journal={Hugging Face Hub},
+  howpublished={\url{https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english}},
+  year={2021}
+}
+```
