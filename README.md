@@ -16,6 +16,7 @@ tags:
 - mozilla-foundation/common_voice_6_0
 - hf-asr-leaderboard
 - hf-asr-leaderboard
+- hf-asr-leaderboard
 license: apache-2.0
 model-index:
 - name: XLSR Wav2Vec2 English by Jonatas Grosman
