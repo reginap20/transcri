@@ -7,14 +7,14 @@ metrics:
 - wer
 - cer
 tags:
-- en
-- robust-speech-event
-- xlsr-fine-tuning-week
 - audio
-- speech
+- automatic-speech-recognition
+- en
 - hf-asr-leaderboard
 - mozilla-foundation/common_voice_6_0
-- automatic-speech-recognition
+- robust-speech-event
+- speech
+- xlsr-fine-tuning-week
 license: apache-2.0
 model-index:
 - name: XLSR Wav2Vec2 English by Jonatas Grosman
