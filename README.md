@@ -14,31 +14,33 @@ tags:
 - xlsr-fine-tuning-week
 - robust-speech-event
 - mozilla-foundation/common_voice_6_0
+- hf-asr-leaderboard
+- hf-asr-leaderboard
 license: apache-2.0
 model-index:
 - name: XLSR Wav2Vec2 English by Jonatas Grosman
   results:
-  - task: 
-      name: Automatic Speech Recognition 
+  - task:
+      name: Automatic Speech Recognition
       type: automatic-speech-recognition
     dataset:
       name: Common Voice en
       type: common_voice
       args: en
     metrics:
-       - name: Test WER
-         type: wer
-         value: 19.06
-       - name: Test CER
-         type: cer
-         value: 7.69
-       - name: Test WER (+LM)
-         type: wer
-         value: 14.81
-       - name: Test CER (+LM)
-         type: cer
-         value: 6.84
-  - task: 
+    - name: Test WER
+      type: wer
+      value: 19.06
+    - name: Test CER
+      type: cer
+      value: 7.69
+    - name: Test WER (+LM)
+      type: wer
+      value: 14.81
+    - name: Test CER (+LM)
+      type: cer
+      value: 6.84
+  - task:
       name: Automatic Speech Recognition
       type: automatic-speech-recognition
     dataset:
@@ -46,18 +48,18 @@ model-index:
       type: speech-recognition-community-v2/dev_data
       args: en
     metrics:
-       - name: Dev WER
-         type: wer
-         value: 27.72
-       - name: Dev CER
-         type: cer
-         value: 11.65
-       - name: Dev WER (+LM)
-         type: wer
-         value: 20.85
-       - name: Dev CER (+LM)
-         type: cer
-         value: 11.01
+    - name: Dev WER
+      type: wer
+      value: 27.72
+    - name: Dev CER
+      type: cer
+      value: 11.65
+    - name: Dev WER (+LM)
+      type: wer
+      value: 20.85
+    - name: Dev CER (+LM)
+      type: cer
+      value: 11.01
 ---
 
 # Wav2Vec2-Large-XLSR-53-English
