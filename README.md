@@ -63,7 +63,7 @@ model-index:
 
 # Wav2Vec2-Large-XLSR-53-English
 
-Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on English using the [Common Voice](https://huggingface.co/datasets/common_voice).
+Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on English using the [Common Voice 6.1](https://huggingface.co/datasets/common_voice).
 When using this model, make sure that your speech input is sampled at 16kHz.
 
 This model has been fine-tuned thanks to the GPU credits generously given by the [OVHcloud](https://www.ovhcloud.com/en/public-cloud/ai-training/) :)
@@ -156,11 +156,9 @@ python eval.py --model_id jonatasgrosman/wav2vec2-large-xlsr-53-english --datase
 If you want to cite this model you can use this:
 
 ```bibtex
-@misc{grosman2021wav2vec2-large-xlsr-53-english,
-  title={XLSR Wav2Vec2 English by Jonatas Grosman},
+@misc{grosman2021xlsr53-large-english,
+  title={Fine-tuned {XLSR}-53 large model for speech recognition in {E}nglish},
   author={Grosman, Jonatas},
-  publisher={Hugging Face},
-  journal={Hugging Face Hub},
   howpublished={\url{https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english}},
   year={2021}
 }
