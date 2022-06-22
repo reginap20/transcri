@@ -63,7 +63,7 @@ model-index:
 
 # Fine-tuned XLSR-53 large model for speech recognition in English
 
-Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on English using the [Common Voice 6.1](https://huggingface.co/datasets/common_voice).
+Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) on English using the train and validation splits of [Common Voice 6.1](https://huggingface.co/datasets/common_voice).
 When using this model, make sure that your speech input is sampled at 16kHz.
 
 This model has been fine-tuned thanks to the GPU credits generously given by the [OVHcloud](https://www.ovhcloud.com/en/public-cloud/ai-training/) :)
